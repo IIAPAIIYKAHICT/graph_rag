@@ -1,0 +1,14 @@
+# Secrets — real values live only in the local .env (see .env.example)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated index — rebuild with `python ingest.py`
+storage/
+
+# Local Claude Code settings
+.claude/settings.local.json
